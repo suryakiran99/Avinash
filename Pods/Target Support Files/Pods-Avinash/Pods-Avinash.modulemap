@@ -1,0 +1,6 @@
+framework module Pods_Avinash {
+  umbrella header "Pods-Avinash-umbrella.h"
+
+  export *
+  module * { export * }
+}

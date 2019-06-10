@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F3C054DE02F16A551299826183595D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		05B83F53DFEC9EB9BBC68C3901F49714 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0D6D8AE570843AAC336D8971EFFA56C3 /* GeminiAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591287F1463A54181E5617155B1B17D7 /* GeminiAnimationModel.swift */; };
+		120AA7F0B751860F900A83253E0CBDEA /* Gemini-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B768FCFE9FC7AC7FF1EABE399E6564A /* Gemini-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CFFD196C2CA54CD261FF8630A14C46B /* Pods-Avinash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4201743A9E433653010F0EE38E40CEAA /* Pods-Avinash-dummy.m */; };
+		24D2C8CC763D1125C71028CAE7E09901 /* YawRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE973BB081BB253F38F6839AB66198A5 /* YawRotationAnimatable.swift */; };
+		300A9B6E95629E43E956D41989972311 /* PitchRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3309F7630B2507474B3E1DA9608988 /* PitchRotationAnimatable.swift */; };
+		3CBD196D3F9EA50DE7181D818C63EF19 /* CubeAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E70F00276E3BBE1766379C3834E860 /* CubeAnimatable.swift */; };
+		4D181A27C30E7C3F9A8915C96F2B7C7B /* UIAppearanceAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A2C9C0E8B9E6139A1EE35FB58E483C /* UIAppearanceAnimatable.swift */; };
+		4E884DCCE2F0798927E8592F578AEAA3 /* CircleRotateAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BE858AD08FFD70EAD087FEADF542 /* CircleRotateAnimatable.swift */; };
+		65BD5D199160B32985A5597F4B3AC390 /* GeminiCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36F71D1C0F03E797A95AF7A1091E04 /* GeminiCollectionView.swift */; };
+		68E56ADAB5676AF796D68852639BB928 /* EasingAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0E707546797EE7BAF20673827861FA /* EasingAnimatable.swift */; };
+		7A8E8C14B6D7B76596DB65A21100AE6A /* RollRotationAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D5A08EBF2E53D02B64989579E1FE26 /* RollRotationAnimatable.swift */; };
+		98C0A8971FB9F3B0E79A923385280234 /* GeminiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AA60CA30AE37DA0123B104A9A09447 /* GeminiCell.swift */; };
+		B9C56B221F8D8FF724911FE9AE9E6F4B /* Gemini-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9191BE2CEB27FDBECB7265AEE599725A /* Gemini-dummy.m */; };
+		CD20076470F7E3806C8028F4943DFC4E /* CustomAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE27B48B6CD60272836B02110DA8E37E /* CustomAnimatable.swift */; };
+		D56AD1C6CAFD15CF83DFEEB1169C1CC2 /* ScaleAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6A595FE55B5679EAAA6C36043BC1D /* ScaleAnimatable.swift */; };
+		D80188834BF9B86D843AF79885C41867 /* Pods-Avinash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F519B218EBE2049E90013E89EE9F0396 /* Pods-Avinash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E49515A29DD41BBB242D49076F01C71E /* EasingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDADE74E5AB781B5F99A32E6E9BEF9AD /* EasingFunction.swift */; };
+		EE15697C933DF89A1CBBD654F0AD86A2 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2333BBB7CA882E8E113B215BCE0B91FF /* UIViewExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A5AB1AE2695968B4FF6AB70D58C7CF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6AC3B95F2D31FE0816D1936AFDFC4F5;
+			remoteInfo = Gemini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		066C15D9AC4DC6BB216B477C8F41576A /* Pods-Avinash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Avinash.release.xcconfig"; sourceTree = "<group>"; };
+		0F36F71D1C0F03E797A95AF7A1091E04 /* GeminiCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiCollectionView.swift; path = Gemini/GeminiCollectionView.swift; sourceTree = "<group>"; };
+		1E1BFC46798C784F03E4015B9CB2D6B4 /* Gemini-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Gemini-Info.plist"; sourceTree = "<group>"; };
+		1E41BE858AD08FFD70EAD087FEADF542 /* CircleRotateAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleRotateAnimatable.swift; path = Gemini/CircleRotateAnimatable.swift; sourceTree = "<group>"; };
+		21AA60CA30AE37DA0123B104A9A09447 /* GeminiCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiCell.swift; path = Gemini/GeminiCell.swift; sourceTree = "<group>"; };
+		2333BBB7CA882E8E113B215BCE0B91FF /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = Gemini/UIViewExtension.swift; sourceTree = "<group>"; };
+		29D5A08EBF2E53D02B64989579E1FE26 /* RollRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RollRotationAnimatable.swift; path = Gemini/RollRotationAnimatable.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3AD5CC3B213F0C222F102CE2A688D35A /* Pods_Avinash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Avinash.framework; path = "Pods-Avinash.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4201743A9E433653010F0EE38E40CEAA /* Pods-Avinash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Avinash-dummy.m"; sourceTree = "<group>"; };
+		45DAF7A11A394464052F8D88E789A15C /* Pods-Avinash-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Avinash-frameworks.sh"; sourceTree = "<group>"; };
+		4E79958862A94A99F0A40F883CEB810E /* Gemini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Gemini.framework; path = Gemini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		591287F1463A54181E5617155B1B17D7 /* GeminiAnimationModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeminiAnimationModel.swift; path = Gemini/GeminiAnimationModel.swift; sourceTree = "<group>"; };
+		5C1DC418999A8217CFE206BF53835B51 /* Pods-Avinash-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Avinash-acknowledgements.plist"; sourceTree = "<group>"; };
+		84E70F00276E3BBE1766379C3834E860 /* CubeAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubeAnimatable.swift; path = Gemini/CubeAnimatable.swift; sourceTree = "<group>"; };
+		86F6A595FE55B5679EAAA6C36043BC1D /* ScaleAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScaleAnimatable.swift; path = Gemini/ScaleAnimatable.swift; sourceTree = "<group>"; };
+		8B768FCFE9FC7AC7FF1EABE399E6564A /* Gemini-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gemini-umbrella.h"; sourceTree = "<group>"; };
+		8B9B030A4EA5BA530D51E18B765FADFD /* Pods-Avinash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Avinash.modulemap"; sourceTree = "<group>"; };
+		9191BE2CEB27FDBECB7265AEE599725A /* Gemini-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gemini-dummy.m"; sourceTree = "<group>"; };
+		94A2C9C0E8B9E6139A1EE35FB58E483C /* UIAppearanceAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAppearanceAnimatable.swift; path = Gemini/UIAppearanceAnimatable.swift; sourceTree = "<group>"; };
+		965A75D92CF09D4663338A5AD3E45B32 /* Gemini.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gemini.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E53508AE44C64956183EF223924AD87 /* Pods-Avinash-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Avinash-Info.plist"; sourceTree = "<group>"; };
+		ABC561657EB2EEE4768E2B349B13789C /* Pods-Avinash-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Avinash-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE3309F7630B2507474B3E1DA9608988 /* PitchRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PitchRotationAnimatable.swift; path = Gemini/PitchRotationAnimatable.swift; sourceTree = "<group>"; };
+		C16A9030628C8D0C93905844EB21AD59 /* Gemini.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gemini.xcconfig; sourceTree = "<group>"; };
+		D3A6C36504E680352D79327349757339 /* Pods-Avinash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Avinash.debug.xcconfig"; sourceTree = "<group>"; };
+		DE27B48B6CD60272836B02110DA8E37E /* CustomAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomAnimatable.swift; path = Gemini/CustomAnimatable.swift; sourceTree = "<group>"; };
+		E8B769213C6AE9B8D50598D9B31BF51D /* Gemini-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gemini-prefix.pch"; sourceTree = "<group>"; };
+		ED0E707546797EE7BAF20673827861FA /* EasingAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasingAnimatable.swift; path = Gemini/EasingAnimatable.swift; sourceTree = "<group>"; };
+		EDADE74E5AB781B5F99A32E6E9BEF9AD /* EasingFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasingFunction.swift; path = Gemini/EasingFunction.swift; sourceTree = "<group>"; };
+		EE973BB081BB253F38F6839AB66198A5 /* YawRotationAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YawRotationAnimatable.swift; path = Gemini/YawRotationAnimatable.swift; sourceTree = "<group>"; };
+		F519B218EBE2049E90013E89EE9F0396 /* Pods-Avinash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Avinash-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24248D04D1EA9EE2BF8A3451D646BC15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F3C054DE02F16A551299826183595D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F79A62BD76657B0DB7D7A5AADEFE24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B83F53DFEC9EB9BBC68C3901F49714 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009DE70CF392039324AE996A50EEC796 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5F40F22FAA528DE57E7EB1189626B92 /* Pods-Avinash */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		11AD585B665A329C24D85214F3331AE8 /* Gemini */ = {
+			isa = PBXGroup;
+			children = (
+				1E41BE858AD08FFD70EAD087FEADF542 /* CircleRotateAnimatable.swift */,
+				84E70F00276E3BBE1766379C3834E860 /* CubeAnimatable.swift */,
+				DE27B48B6CD60272836B02110DA8E37E /* CustomAnimatable.swift */,
+				ED0E707546797EE7BAF20673827861FA /* EasingAnimatable.swift */,
+				EDADE74E5AB781B5F99A32E6E9BEF9AD /* EasingFunction.swift */,
+				591287F1463A54181E5617155B1B17D7 /* GeminiAnimationModel.swift */,
+				21AA60CA30AE37DA0123B104A9A09447 /* GeminiCell.swift */,
+				0F36F71D1C0F03E797A95AF7A1091E04 /* GeminiCollectionView.swift */,
+				AE3309F7630B2507474B3E1DA9608988 /* PitchRotationAnimatable.swift */,
+				29D5A08EBF2E53D02B64989579E1FE26 /* RollRotationAnimatable.swift */,
+				86F6A595FE55B5679EAAA6C36043BC1D /* ScaleAnimatable.swift */,
+				94A2C9C0E8B9E6139A1EE35FB58E483C /* UIAppearanceAnimatable.swift */,
+				2333BBB7CA882E8E113B215BCE0B91FF /* UIViewExtension.swift */,
+				EE973BB081BB253F38F6839AB66198A5 /* YawRotationAnimatable.swift */,
+				E3929F4CA459D62095D5EC31706859AB /* Support Files */,
+			);
+			name = Gemini;
+			path = Gemini;
+			sourceTree = "<group>";
+		};
+		7856A93C4961AD6697457A3C4D637766 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11AD585B665A329C24D85214F3331AE8 /* Gemini */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF2FAA76E801031BEC9815998234779D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E79958862A94A99F0A40F883CEB810E /* Gemini.framework */,
+				3AD5CC3B213F0C222F102CE2A688D35A /* Pods_Avinash.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F40F22FAA528DE57E7EB1189626B92 /* Pods-Avinash */ = {
+			isa = PBXGroup;
+			children = (
+				8B9B030A4EA5BA530D51E18B765FADFD /* Pods-Avinash.modulemap */,
+				ABC561657EB2EEE4768E2B349B13789C /* Pods-Avinash-acknowledgements.markdown */,
+				5C1DC418999A8217CFE206BF53835B51 /* Pods-Avinash-acknowledgements.plist */,
+				4201743A9E433653010F0EE38E40CEAA /* Pods-Avinash-dummy.m */,
+				45DAF7A11A394464052F8D88E789A15C /* Pods-Avinash-frameworks.sh */,
+				9E53508AE44C64956183EF223924AD87 /* Pods-Avinash-Info.plist */,
+				F519B218EBE2049E90013E89EE9F0396 /* Pods-Avinash-umbrella.h */,
+				D3A6C36504E680352D79327349757339 /* Pods-Avinash.debug.xcconfig */,
+				066C15D9AC4DC6BB216B477C8F41576A /* Pods-Avinash.release.xcconfig */,
+			);
+			name = "Pods-Avinash";
+			path = "Target Support Files/Pods-Avinash";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7856A93C4961AD6697457A3C4D637766 /* Pods */,
+				AF2FAA76E801031BEC9815998234779D /* Products */,
+				009DE70CF392039324AE996A50EEC796 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3929F4CA459D62095D5EC31706859AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				965A75D92CF09D4663338A5AD3E45B32 /* Gemini.modulemap */,
+				C16A9030628C8D0C93905844EB21AD59 /* Gemini.xcconfig */,
+				9191BE2CEB27FDBECB7265AEE599725A /* Gemini-dummy.m */,
+				1E1BFC46798C784F03E4015B9CB2D6B4 /* Gemini-Info.plist */,
+				E8B769213C6AE9B8D50598D9B31BF51D /* Gemini-prefix.pch */,
+				8B768FCFE9FC7AC7FF1EABE399E6564A /* Gemini-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Gemini";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FD2C312F014035986A47557ED47B4EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120AA7F0B751860F900A83253E0CBDEA /* Gemini-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B2D02AB44D8A56AD5CF2C078B737B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80188834BF9B86D843AF79885C41867 /* Pods-Avinash-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A6AC3B95F2D31FE0816D1936AFDFC4F5 /* Gemini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F97BE090DBB6F0173E18D92038B75A /* Build configuration list for PBXNativeTarget "Gemini" */;
+			buildPhases = (
+				0FD2C312F014035986A47557ED47B4EF /* Headers */,
+				FFAB49F1A5BC757E251E72B7EACE424E /* Sources */,
+				39F79A62BD76657B0DB7D7A5AADEFE24 /* Frameworks */,
+				C0F0D7DB2EB44F68B60F310C977C442A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gemini;
+			productName = Gemini;
+			productReference = 4E79958862A94A99F0A40F883CEB810E /* Gemini.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3BADBD8CE602030313AD7803D110DF7 /* Pods-Avinash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49421AD022936F80BC802DDD50D606BF /* Build configuration list for PBXNativeTarget "Pods-Avinash" */;
+			buildPhases = (
+				46B2D02AB44D8A56AD5CF2C078B737B5 /* Headers */,
+				53EBA581CB49E37681793EE75399A1F5 /* Sources */,
+				24248D04D1EA9EE2BF8A3451D646BC15 /* Frameworks */,
+				9F44C1F0238E16CF328676FC54037B0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E913DDF799FCCD94793694DCDCDEE30 /* PBXTargetDependency */,
+			);
+			name = "Pods-Avinash";
+			productName = "Pods-Avinash";
+			productReference = 3AD5CC3B213F0C222F102CE2A688D35A /* Pods_Avinash.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AF2FAA76E801031BEC9815998234779D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6AC3B95F2D31FE0816D1936AFDFC4F5 /* Gemini */,
+				E3BADBD8CE602030313AD7803D110DF7 /* Pods-Avinash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F44C1F0238E16CF328676FC54037B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F0D7DB2EB44F68B60F310C977C442A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53EBA581CB49E37681793EE75399A1F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFFD196C2CA54CD261FF8630A14C46B /* Pods-Avinash-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAB49F1A5BC757E251E72B7EACE424E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E884DCCE2F0798927E8592F578AEAA3 /* CircleRotateAnimatable.swift in Sources */,
+				3CBD196D3F9EA50DE7181D818C63EF19 /* CubeAnimatable.swift in Sources */,
+				CD20076470F7E3806C8028F4943DFC4E /* CustomAnimatable.swift in Sources */,
+				68E56ADAB5676AF796D68852639BB928 /* EasingAnimatable.swift in Sources */,
+				E49515A29DD41BBB242D49076F01C71E /* EasingFunction.swift in Sources */,
+				B9C56B221F8D8FF724911FE9AE9E6F4B /* Gemini-dummy.m in Sources */,
+				0D6D8AE570843AAC336D8971EFFA56C3 /* GeminiAnimationModel.swift in Sources */,
+				98C0A8971FB9F3B0E79A923385280234 /* GeminiCell.swift in Sources */,
+				65BD5D199160B32985A5597F4B3AC390 /* GeminiCollectionView.swift in Sources */,
+				300A9B6E95629E43E956D41989972311 /* PitchRotationAnimatable.swift in Sources */,
+				7A8E8C14B6D7B76596DB65A21100AE6A /* RollRotationAnimatable.swift in Sources */,
+				D56AD1C6CAFD15CF83DFEEB1169C1CC2 /* ScaleAnimatable.swift in Sources */,
+				4D181A27C30E7C3F9A8915C96F2B7C7B /* UIAppearanceAnimatable.swift in Sources */,
+				EE15697C933DF89A1CBBD654F0AD86A2 /* UIViewExtension.swift in Sources */,
+				24D2C8CC763D1125C71028CAE7E09901 /* YawRotationAnimatable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E913DDF799FCCD94793694DCDCDEE30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gemini;
+			target = A6AC3B95F2D31FE0816D1936AFDFC4F5 /* Gemini */;
+			targetProxy = 7A5AB1AE2695968B4FF6AB70D58C7CF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0693F0906C8473831FCA63F33A771314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C16A9030628C8D0C93905844EB21AD59 /* Gemini.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gemini/Gemini-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gemini/Gemini-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Gemini/Gemini.modulemap";
+				PRODUCT_MODULE_NAME = Gemini;
+				PRODUCT_NAME = Gemini;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0E118BF6B4908883E0AD30D4C870D0C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A6C36504E680352D79327349757339 /* Pods-Avinash.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Avinash/Pods-Avinash-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Avinash/Pods-Avinash.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		410C7029ADFC0A01BAA74A6EAB959926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066C15D9AC4DC6BB216B477C8F41576A /* Pods-Avinash.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Avinash/Pods-Avinash-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Avinash/Pods-Avinash.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2FF2001B065BD7F1369DD3421684B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C16A9030628C8D0C93905844EB21AD59 /* Gemini.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gemini/Gemini-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gemini/Gemini-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Gemini/Gemini.modulemap";
+				PRODUCT_MODULE_NAME = Gemini;
+				PRODUCT_NAME = Gemini;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49421AD022936F80BC802DDD50D606BF /* Build configuration list for PBXNativeTarget "Pods-Avinash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E118BF6B4908883E0AD30D4C870D0C5 /* Debug */,
+				410C7029ADFC0A01BAA74A6EAB959926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F97BE090DBB6F0173E18D92038B75A /* Build configuration list for PBXNativeTarget "Gemini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0693F0906C8473831FCA63F33A771314 /* Debug */,
+				E2FF2001B065BD7F1369DD3421684B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
